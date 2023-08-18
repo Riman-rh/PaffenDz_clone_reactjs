@@ -1,0 +1,37 @@
+.mobileNav_wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+.mobileNav_sideBar{
+    background-color: #F5F5F5;
+    height: 100vh;
+    width: 50%;
+    position: fixed;
+    z-index: 1100;
+    top: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.mobileNav_link{
+    text-decoration: none;
+    color: #484848;
+}
+.mobileNav_item{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    border-bottom: 1px solid lightgray;
+    transition: 1000ms ease ;
+}
+.mobileNav_item:hover{
+    background-color: #666633;
+    color: #fff;
+}
+.mobileNav_icon{
+    margin-right: 10px;
+}

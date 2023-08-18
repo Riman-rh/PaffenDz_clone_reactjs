@@ -1,0 +1,21 @@
+.topProductMenu{
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.topProductMenu_item{
+     margin-right: 50px;
+    font-size: 18px;
+    color: #404040;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.topProductMenu_item_dark{
+    color:#fff;
+}

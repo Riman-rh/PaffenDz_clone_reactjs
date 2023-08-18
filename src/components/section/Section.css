@@ -1,0 +1,22 @@
+.section{
+  width: 100%;
+  height: 80vh;
+  position: relative;
+}
+.slide{
+  opacity: 0;
+  transition: 3s ease;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+
+}
+.slide.active{
+  opacity: 1;
+  transition-duration: 3s;
+}
+.section_img{
+  height: 100%;
+  width: 100%;
+}
+  

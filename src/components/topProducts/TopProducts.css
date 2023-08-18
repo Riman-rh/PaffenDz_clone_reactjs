@@ -1,0 +1,22 @@
+.topProducts_map{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+ 
+}
+
+@media (min-width:765px){
+    .topProducts_map{
+        justify-content: space-evenly;
+
+    }
+
+}
+
+@media (min-width:1201px){
+    .topProducts_map{
+          justify-content: space-between;
+
+    }
+}

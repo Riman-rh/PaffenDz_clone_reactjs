@@ -1,0 +1,36 @@
+.homeHeader{
+    text-align: center;
+}
+
+.homeHeader h2{
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 500;
+}
+.homeHeader_h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.homeHeader h1{
+    font-size: 20px;
+    color: #383838;
+    margin: 0px 50px;
+}
+.homeHeader_div{
+    width: 0px;
+    height: 0;
+    border-bottom: 3px solid #505050;
+}
+@media (min-width:765px){
+    .homeHeader h2{
+        font-size: 30px;
+    }
+    .homeHeader h1{
+        font-size: 30px;
+    }
+    .homeHeader_div{
+        width: 200px;
+    }
+
+}

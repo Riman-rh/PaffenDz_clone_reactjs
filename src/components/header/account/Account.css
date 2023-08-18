@@ -1,0 +1,49 @@
+.account{
+    position: absolute;
+    top: 30px;
+    right: 45%;
+    border: 1px solid #F8F8F8;
+    box-shadow: 2px 4px 5px -1px rgba(211,211,211,0.75);
+    -webkit-box-shadow: 2px 4px 5px -1px rgba(211,211,211,0.75);
+    -moz-box-shadow: 2px 4px 5px -1px rgba(211,211,211,0.75);
+    list-style: none;
+    font-size: 14px;
+    color: #A0A0A0;
+    background-color: #fff;
+    padding: 0;
+    z-index: 100;
+}
+.account_item{
+    margin: 0;
+    padding: 10px 20px;
+    width: 100px;
+
+}
+
+.account_item:hover{
+    background-color: #F8F8F8;
+}
+.account_item .icon{
+    color:#585858;
+    margin-right: 10px;
+
+}
+
+
+@media (min-width:765px){
+.account{
+    right: 10%;
+
+}
+
+}
+
+
+@media (min-width:1201px){
+
+.account{
+    right: 20%;
+
+}
+
+}
